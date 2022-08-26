@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid img {
+    width: 6rem;
+
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.menu a:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.navbar-expand-md .navbar-collapse {
+    justify-content: space-around;
+}
+
+.carousel-item img {
+    width: 40em;
+}
+
+.padre {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+main {
+    background-color: rgba(97, 144, 151, 0.603);
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconos ul {
+    display: flex;
+}
+
+.redes li {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.redes li a img {
+    height: 4rem;
+}
+
+.row {
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.card {
+    margin: 15px;
+    align-items: center;
+}
+
+.card img {
+    height: 15rem;
+    width: 15rem;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.colors img{
+    height: 35rem;
+    width: 27rem;
+}
+.mail {
+    width: 400px;
+    height: 300px;
+    padding: 40px 15px;
+}
+
+.mail ul li {
+    line-height: 30px;
+    list-style-type: square;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+.formulario {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+
+.formu {
+    left: 30px;
+    margin: 0 auto;
+
+}
