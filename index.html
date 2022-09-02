@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./image/logoALU.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>ALU Diseño</title>
@@ -14,68 +15,60 @@
     <header>
         <nav class="navbar navbar-expand-md bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="./image/logoALU.png" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav menu">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">INICIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/productos.html">PRODUCTOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/sellos.html">SELLOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/colores.html">COLORES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
-                    </ul>
+              <a class="navbar-brand" href="./index.html"><img src="./image/logoALU.png" class="rounded float-start col-lg-3 col-md-4 col-sm-4 logo" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav menu">
+                    <li><a class="nav-link active" aria-current="page" href="./index.html">INICIO</a></li>
+                    <li><a class="nav-link" href="./pages/productos.html">PRODUCTOS</a></li>
+                    <li><a class="nav-link" href="./pages/sellos.html">SELLOS</a></li>
+                    <li><a class="nav-link" href="./pages/colores.html">COLORES</a></li>
+                    <li><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
                 </div>
+              </div>
             </div>
-        </nav>
     </header>
+
     <main>
         <div id="carouselExampleIndicators" class="carousel slide padre" data-bs-ride="true">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./image/portaCelular.jpg" class="carrusel" alt="portacelular">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/libro.jpg" class="carrusel" alt="libro">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/lleverosMemes.jpg" class="carrusel" alt="llaveros">
-                </div>
+              <div class="carousel-item active">
+                <img src="./image/portaCelular.jpg" class="carrusel img-fluid" alt="portacelular">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/libro.jpg" class="carrusel img-fluid" alt="libro">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/lleverosMemes.jpg" class="carrusel img-fluid" alt="llaveros">
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
-        </div>
+          </div>
     </main>
     <footer class="footer">
         <section class="iconos">
             <ul class="redes">
-                <li><a href="https://www.instagram.com/" target="blank"><img src="./image/instagram.png"
-                            alt="instagram"></a></li>
-                <li><a href="https://api.whatsapp.com/" target="blank"><img src="./image/whatsapp.png"
-                            alt="whatsapp"></a></li>
+                <li><a href="https://www.instagram.com/" target="blank"><img src="./image/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://api.whatsapp.com/" target="blank"><img src="./image/whatsapp.png" alt="whatsapp"></a></li>
             </ul>
         </section>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"><script>
-            </body>
-</html >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"><script>
+ </body>
+
+</html>
