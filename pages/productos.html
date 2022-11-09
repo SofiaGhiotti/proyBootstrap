@@ -1,147 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="../image/logoALU.png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <title>ALU Diseño</title>
+        <link rel="stylesheet" href="../css/estilos.css" />
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../image/logoALU.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>ALU Diseño</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../image/logoALU.png" alt="logo" /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav menu">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./productos.html">PRODUCTOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./sellos.html">SELLOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./colores.html">COLORES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../image/logoALU.png" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav menu">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a> </li>
-                        <li class="nav-item"><a class="nav-link" href="./productos.html">PRODUCTOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./sellos.html">SELLOS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./colores.html">COLORES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
+        <main class="productos">
+            <h1>PRODUCTOS</h1>
+            <div class="row">
+                <div class="card" style="width: 18rem; height: 23rem">
+                    <img src="../image/llaveroPaltas.jpg" class="card-img-top" alt="llavero paltas" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVERO PALTITAS</p>
+                        <a onclick="agregarElementoAlCarrito(0)" href="#" class="btn btn-primary">AGREGAR</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 23rem">
+                    <img src="../image/llaveroPatitas.jpg" class="card-img-top" alt="llavero patitas" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVERO PATITAS</p>
+                        <a onclick="agregarElementoAlCarrito(1)" href="#" class="btn btn-primary">AGREGAR</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 23rem">
+                    <img src="../image/llaveroMascotas.jpg" class="card-img-top" alt="llavero mascotas" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVERO MASCOTAS</p>
+                        <a onclick="agregarElementoAlCarrito(2)" href="#" class="btn btn-primary">AGREGAR</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/llaverosPersonales.jpg" class="card-img-top" alt="llaverosPersonales" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVEROS PARA SOUVENIR</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/llaverosAmis.jpg" class="card-img-top" alt="llaver personalizados" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVEROS PERSONALIZADOS</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/michi-yan.jpg" class="card-img-top" alt="michi-yan" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVERO MICHI-YANG</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/llaveroAmistad.jpg" class="card-img-top" alt="llavero Amistad" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVEROS AMISTAD</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/lleverosMemes.jpg" class="card-img-top" alt="lleverosMemes" />
+                    <div class="card-body">
+                        <p class="card-text">LLAVEROS MEMES</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/portaCelular.jpg" class="card-img-top" alt="porta celular" />
+                    <div class="card-body">
+                        <p class="card-text">PORTA CELULAR</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/libro.jpg" class="card-img-top" alt="sostendor libro" />
+                    <div class="card-body">
+                        <p class="card-text">SOSTENEDOR LIBRO</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/placas1.jpg" class="card-img-top" alt="placas" />
+                    <div class="card-body">
+                        <p class="card-text">PLACAS PARA MASCOTAS</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/placas2.jpg" class="card-img-top" alt="placas sublimadas" />
+                    <div class="card-body">
+                        <p class="card-text">PLACAS SUBLIMADAS</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/carteleria.jpg" class="card-img-top" alt="carteleria" />
+                    <div class="card-body">
+                        <p class="card-text">CARTELERIA</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/cuadros.jpeg" class="card-img-top" alt="cuadros" />
+                    <div class="card-body">
+                        <p class="card-text">CUADROS</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height: 20rem">
+                    <img src="../image/cartel.jpeg" class="card-img-top" alt="cartel" />
+                    <div class="card-body">
+                        <p class="card-text">CARTEL PERSONALIZADO</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </main>
 
-
-    <main class="productos">
-        <h1>PRODUCTOS</h1>
-        <div class="row">
-            <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaveroPaltas.jpg" class="card-img-top" alt="llavero paltas">
-                <div class="card-body">
-                  <p class="card-text">LLAVERO PALTITAS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaveroPatitas.jpg" class="card-img-top" alt="llavero patitas">
-                <div class="card-body">
-                  <p class="card-text">LLAVERO PATITAS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaveroMascotas.jpg" class="card-img-top" alt="llavero mascotas">
-                <div class="card-body">
-                  <p class="card-text">LLAVERO MASCOTAS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaverosPersonales.jpg" class="card-img-top" alt="llaverosPersonales">
-                <div class="card-body">
-                  <p class="card-text">LLAVEROS PARA SOUVENIR</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaverosAmis.jpg" class="card-img-top" alt="llaver personalizados">
-                <div class="card-body">
-                  <p class="card-text">LLAVEROS PERSONALIZADOS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/michi-yan.jpg" class="card-img-top" alt="michi-yan">
-                <div class="card-body">
-                  <p class="card-text">LLAVERO MICHI-YANG</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/llaveroAmistad.jpg" class="card-img-top" alt="llavero Amistad">
-                <div class="card-body">
-                  <p class="card-text">LLAVEROS AMISTAD</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/lleverosMemes.jpg" class="card-img-top" alt="lleverosMemes">
-                <div class="card-body">
-                  <p class="card-text">LLAVEROS MEMES</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/portaCelular.jpg" class="card-img-top" alt="porta celular">
-                <div class="card-body">
-                  <p class="card-text">PORTA CELULAR</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/libro.jpg" class="card-img-top" alt="sostendor libro">
-                <div class="card-body">
-                  <p class="card-text">SOSTENEDOR LIBRO</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/placas1.jpg" class="card-img-top" alt="placas">
-                <div class="card-body">
-                  <p class="card-text">PLACAS PARA MASCOTAS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/placas2.jpg" class="card-img-top" alt="placas sublimadas">
-                <div class="card-body">
-                  <p class="card-text">PLACAS SUBLIMADAS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/carteleria.jpg" class="card-img-top" alt="carteleria">
-                <div class="card-body">
-                  <p class="card-text">CARTELERIA</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/cuadros.jpeg" class="card-img-top" alt="cuadros">
-                <div class="card-body">
-                  <p class="card-text">CUADROS</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height: 20rem">
-                <img src="../image/cartel.jpeg" class="card-img-top" alt="cartel">
-                <div class="card-body">
-                  <p class="card-text">CARTEL PERSONALIZADO</p>
-                </div>
-              </div>   
-        </div>
-
-    </main>
-
-    <footer class="footer">
-        <section class="iconos">
-            <ul class="redes">
-                <li><a href="https://www.instagram.com/" target="blank"><img src="../image/instagram.png"
-                            alt="instagram"></a></li>
-                <li><a href="https://api.whatsapp.com/" target="blank"><img src="../image/whatsapp.png"
-                            alt="whatsapp"></a></li>
-            </ul>
-        </section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-</body>
+        <footer class="footer">
+            <section class="iconos">
+                <ul class="redes">
+                    <li>
+                        <a href="https://www.instagram.com/" target="blank"><img src="../image/instagram.png" alt="instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/" target="blank"><img src="../image/whatsapp.png" alt="whatsapp" /></a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../javascript/main.js"></script>
+    </body>
 </html>

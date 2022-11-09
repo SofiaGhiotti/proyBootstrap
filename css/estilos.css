@@ -7,13 +7,13 @@
     width: 10rem;
 }
 
-.navbar>.container,
-.navbar>.container-fluid,
-.navbar>.container-lg,
-.navbar>.container-md,
-.navbar>.container-sm,
-.navbar>.container-xl,
-.navbar>.container-xxl {
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
     flex-wrap: nowrap;
 }
 
@@ -25,8 +25,6 @@
     justify-content: space-around;
 }
 
-
-
 .padre {
     height: auto;
     width: 50vw;
@@ -37,7 +35,7 @@ main {
     height: auto;
     background-color: rgba(97, 144, 151, 0.603);
 }
-.colors img{
+.colors img {
     height: 50rem;
     width: 50vw;
     margin: 0 auto;
@@ -80,6 +78,11 @@ main {
     width: 15rem;
     margin-top: 20px;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1 {
     font-size: 32px;
@@ -96,14 +99,13 @@ h1 {
 .mail ul li {
     line-height: 30px;
     list-style-type: square;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Lato', sans-serif;
+    font-family: "Comfortaa", cursive;
+    font-family: "Lato", sans-serif;
 }
 
 .row .formu {
     left: 30px;
     margin: 0 auto;
-
 }
 .contenido {
     display: flex;
