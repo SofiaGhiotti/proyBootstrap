@@ -21,6 +21,14 @@ function agregarElementoAlCarrito(i) {
                     `);
 }
 
+for (let i = 0; i < productos.length; i++) {
+    console.log(productos[i]);
+}
+
+let prodEncontrados = productos.filter((num) => num == 15);
+
+console.log(prodEncontrados);
+
 function mediosDePago(monto) {
     let montoTotal;
     let medioDePago = parseInt(prompt(`1.Cuota 2.transferencia `));
